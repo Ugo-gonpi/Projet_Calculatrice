@@ -8,8 +8,8 @@ body {
 }
 
 .calculatrice {
-    height: 250px;
-    width: 200px;
+    height: 350px;
+    width: 300px;
     background-color: darkolivegreen;
     display: flex;
     justify-content: center;
@@ -21,10 +21,11 @@ body {
     -moz-box-shadow: -9px -9px 5px 0px rgba(12,10,25,0.75);
 }
 
-.calculatrice .result {
-    margin-bottom: 30px;
+#result {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
     border: 2px black solid;
-    
 }
 
 .buttons input {
@@ -33,21 +34,26 @@ body {
 }
 
 .buttons .ligne1 input {
-    width: 35px;
+    width: 50px;
+    height: 40px;
 }
 
 .buttons .ligne2 input {
-    width: 35px;
+    width: 50px;
+    height: 40px;
 }
 
 .buttons .ligne3 input {
-    width: 35px;
+    width: 50px;
+    height: 40px;
 }
 
 .buttons .ligne4 input {
-    width: 35px;
+    width: 50px;
+    height: 40px;
 }
 
 .buttons .ligne5 input {
-    width: 35px;
+    width: 50px;
+    height: 40px;
 }
