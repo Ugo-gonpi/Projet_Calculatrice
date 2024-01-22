@@ -2,9 +2,9 @@ body {
     background-image:url(./../src/images/calculus.jpg);
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: cover;
+    height: cover;
+    margin-top: 150px;
 }
 
 .calculatrice {
@@ -23,35 +23,38 @@ body {
     width: 204px;
     height: 30px;
     margin-bottom: 20px;
-    border: 2px black solid;
-}
-
-.buttons input {
     color: white;
-    background-color: royalblue;
+    background-color: #2a3649;
+    border: 3px black solid;
+    border-radius: 5px;
 }
 
-.buttons .ligne1 input {
+.buttons button {
+    color: white;
+    background-color: #2a3649;
+}
+
+.buttons .ligne1 button {
     width: 50px;
     height: 40px;
 }
 
-.buttons .ligne2 input {
+.buttons .ligne2 button {
     width: 50px;
     height: 40px;
 }
 
-.buttons .ligne3 input {
+.buttons .ligne3 button {
     width: 50px;
     height: 40px;
 }
 
-.buttons .ligne4 input {
+.buttons .ligne4 button {
     width: 50px;
     height: 40px;
 }
 
-.buttons .ligne5 input {
+.buttons .ligne5 button {
     width: 50px;
     height: 40px;
 }
