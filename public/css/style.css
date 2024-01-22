@@ -1,0 +1,27 @@
+body {
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.calculatrice {
+    height: 300px;
+    width: 200px;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.calculatrice input {
+    margin-bottom: 50px;
+}
+
+.calculatrice button {
+    align-content: flex-end;
+}
