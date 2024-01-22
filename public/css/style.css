@@ -8,20 +8,46 @@ body {
 }
 
 .calculatrice {
-    height: 300px;
+    height: 250px;
     width: 200px;
     background-color: darkolivegreen;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid black;
+    border: 5px solid black;
+    box-shadow: -9px -9px 5px 0px rgba(12,10,25,0.75);
+    -webkit-box-shadow: -9px -9px 5px 0px rgba(12,10,25,0.75);
+    -moz-box-shadow: -9px -9px 5px 0px rgba(12,10,25,0.75);
 }
 
-.calculatrice input {
-    margin-bottom: 50px;
+.calculatrice .result {
+    margin-bottom: 30px;
+    border: 2px black solid;
+    
 }
 
-.calculatrice button {
-    align-content: flex-end;
+.buttons input {
+    color: white;
+    background-color: royalblue;
+}
+
+.buttons .ligne1 input {
+    width: 35px;
+}
+
+.buttons .ligne2 input {
+    width: 35px;
+}
+
+.buttons .ligne3 input {
+    width: 35px;
+}
+
+.buttons .ligne4 input {
+    width: 35px;
+}
+
+.buttons .ligne5 input {
+    width: 35px;
 }
